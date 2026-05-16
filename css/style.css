@@ -3,9 +3,16 @@ html {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     padding-top: 3.25rem;
     color: #263238;
     background: #f6f8fb;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .brand {
@@ -65,7 +72,6 @@ body {
 .service-card,
 .news-card,
 .gallery-card {
-    height: 100%;
     border-radius: 8px;
     box-shadow: 0 10px 26px rgba(32, 47, 62, 0.08);
 }
@@ -128,6 +134,7 @@ body {
 }
 
 .footer {
+    margin-top: auto;
     background: #17242f;
     color: #dce6ec;
 }
