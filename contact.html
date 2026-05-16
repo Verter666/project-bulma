@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакты и форма обратной связи Project Bulma.">
+    <title>Project Bulma - Контакты</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item brand" href="index.html">Project Bulma</a>
+                <button class="navbar-burger" type="button" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">Главная</a>
+                    <a class="navbar-item" href="about.html">О проекте</a>
+                    <a class="navbar-item" href="catalog.html">Каталог</a>
+                    <a class="navbar-item" href="gallery.html">Галерея</a>
+                    <a class="navbar-item" href="news.html">Новости</a>
+                    <a class="navbar-item" href="faq.html">FAQ</a>
+                    <a class="navbar-item" href="subscription.html">Подписка</a>
+                    <a class="navbar-item is-active" href="contact.html">Контакты</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero page-hero">
+            <div class="hero-body">
+                <div class="container">
+                    <p class="eyebrow">Связь</p>
+                    <h1 class="title is-2">Контакты</h1>
+                    <p class="subtitle is-5">Адрес, контактные данные и форма обратной связи.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-5">
+                        <div class="box side-panel">
+                            <h2 class="title is-4">Контактная информация</h2>
+                            <div class="contact-list">
+                                <p><strong>Email:</strong> hello@project-bulma.local</p>
+                                <p><strong>Телефон:</strong> +7 900 000-00-00</p>
+                                <p><strong>Адрес:</strong> Учебная аудитория, онлайн</p>
+                                <p><strong>Время ответа:</strong> Пн-Пт, 10:00-18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <form class="box" data-demo-form>
+                            <div class="field">
+                                <label class="label" for="contact-name">Имя</label>
+                                <div class="control">
+                                    <input class="input" id="contact-name" type="text" placeholder="Как к вам обращаться" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label" for="contact-email">Email</label>
+                                <div class="control">
+                                    <input class="input" id="contact-email" type="email" placeholder="name@example.com" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label" for="contact-message">Сообщение</label>
+                                <div class="control">
+                                    <textarea class="textarea" id="contact-message" placeholder="Введите сообщение" required></textarea>
+                                </div>
+                            </div>
+                            <button class="button is-primary" type="submit">Отправить сообщение</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p><strong>Project Bulma</strong> - учебный адаптивный сайт, 2026.</p>
+            <p><a href="subscription.html">Подписка</a> | <a href="faq.html">FAQ</a> | <a href="about.html">О проекте</a> | <a href="index.html">Главная</a></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

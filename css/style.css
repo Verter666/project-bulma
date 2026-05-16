@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 3.25rem;
+    color: #263238;
+    background: #f6f8fb;
+}
+
+.brand {
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.navbar-burger {
+    background: transparent;
+    border: 0;
+}
+
+.navbar-item.is-active {
+    font-weight: 700;
+}
+
+.home-hero,
+.page-hero {
+    position: relative;
+    color: #fff;
+    background:
+        linear-gradient(90deg, rgba(17, 38, 55, 0.88), rgba(17, 38, 55, 0.5)),
+        url("https://picsum.photos/seed/bulma-workspace/1400/760") center / cover;
+}
+
+.page-hero {
+    background:
+        linear-gradient(90deg, rgba(17, 38, 55, 0.86), rgba(17, 38, 55, 0.56)),
+        url("https://picsum.photos/seed/bulma-pages/1400/520") center / cover;
+}
+
+.home-hero .title,
+.home-hero .subtitle,
+.page-hero .title,
+.page-hero .subtitle {
+    color: #fff;
+}
+
+.eyebrow {
+    margin-bottom: 0.75rem;
+    color: #8ee6c8;
+    font-size: 0.86rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.content-intro {
+    max-width: 58rem;
+    margin-bottom: 1.5rem;
+    color: #4b5b64;
+    font-size: 1.08rem;
+}
+
+.feature-box,
+.side-panel,
+.service-card,
+.news-card,
+.gallery-card {
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 26px rgba(32, 47, 62, 0.08);
+}
+
+.feature-box {
+    border-left: 4px solid #00d1b2;
+}
+
+.side-links {
+    display: grid;
+    gap: 0.6rem;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #0f1720;
+    aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.card-image img {
+    object-fit: cover;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.stat-box {
+    padding: 1.25rem;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(32, 47, 62, 0.06);
+}
+
+.contact-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.form-message {
+    display: none;
+    margin-top: 1rem;
+}
+
+.form-message.is-visible {
+    display: block;
+}
+
+.footer {
+    background: #17242f;
+    color: #dce6ec;
+}
+
+.footer a,
+.footer strong {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .home-hero .title {
+        font-size: 2.35rem;
+    }
+
+    .home-hero .subtitle,
+    .page-hero .subtitle {
+        font-size: 1.15rem;
+    }
+
+    .section {
+        padding: 2.25rem 1.1rem;
+    }
+}

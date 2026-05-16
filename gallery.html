@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Галерея изображений Project Bulma.">
+    <title>Project Bulma - Галерея</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item brand" href="index.html">Project Bulma</a>
+                <button class="navbar-burger" type="button" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">Главная</a>
+                    <a class="navbar-item" href="about.html">О проекте</a>
+                    <a class="navbar-item" href="catalog.html">Каталог</a>
+                    <a class="navbar-item is-active" href="gallery.html">Галерея</a>
+                    <a class="navbar-item" href="news.html">Новости</a>
+                    <a class="navbar-item" href="faq.html">FAQ</a>
+                    <a class="navbar-item" href="subscription.html">Подписка</a>
+                    <a class="navbar-item" href="contact.html">Контакты</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero page-hero">
+            <div class="hero-body">
+                <div class="container">
+                    <p class="eyebrow">Медиа</p>
+                    <h1 class="title is-2">Галерея</h1>
+                    <p class="subtitle is-5">Адаптивная сетка изображений с подписями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    <div class="column is-4-desktop is-6-tablet">
+                        <article class="box gallery-card">
+                            <img src="https://picsum.photos/seed/gallery-1/700/460" alt="Рабочий стол веб-разработчика">
+                            <h2 class="title is-5 mt-4">Макет главной</h2>
+                            <p>Пример визуального блока для первого экрана.</p>
+                        </article>
+                    </div>
+                    <div class="column is-4-desktop is-6-tablet">
+                        <article class="box gallery-card">
+                            <img src="https://picsum.photos/seed/gallery-2/700/460" alt="Сетка карточек на экране">
+                            <h2 class="title is-5 mt-4">Каталог</h2>
+                            <p>Карточки материалов, услуг или продуктов.</p>
+                        </article>
+                    </div>
+                    <div class="column is-4-desktop is-6-tablet">
+                        <article class="box gallery-card">
+                            <img src="https://picsum.photos/seed/gallery-3/700/460" alt="Новости и статьи на сайте">
+                            <h2 class="title is-5 mt-4">Новости</h2>
+                            <p>Блоки статей с датами и краткими описаниями.</p>
+                        </article>
+                    </div>
+                    <div class="column is-4-desktop is-6-tablet">
+                        <article class="box gallery-card">
+                            <img src="https://picsum.photos/seed/gallery-4/700/460" alt="Форма обратной связи">
+                            <h2 class="title is-5 mt-4">Формы</h2>
+                            <p>Поля ввода, кнопки и сообщения об отправке.</p>
+                        </article>
+                    </div>
+                    <div class="column is-4-desktop is-6-tablet">
+                        <article class="box gallery-card">
+                            <img src="https://picsum.photos/seed/gallery-5/700/460" alt="Адаптивное меню сайта">
+                            <h2 class="title is-5 mt-4">Навигация</h2>
+                            <p>Меню корректно работает на малых экранах.</p>
+                        </article>
+                    </div>
+                    <div class="column is-4-desktop is-6-tablet">
+                        <article class="box gallery-card">
+                            <img src="https://picsum.photos/seed/gallery-6/700/460" alt="Планшет с открытым сайтом">
+                            <h2 class="title is-5 mt-4">Адаптивность</h2>
+                            <p>Контент остается читаемым на разных устройствах.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p><strong>Project Bulma</strong> - учебный адаптивный сайт, 2026.</p>
+            <p><a href="contact.html">Контакты</a> | <a href="subscription.html">Подписка</a> | <a href="faq.html">FAQ</a> | <a href="index.html">Главная</a></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
